@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .main_box{
+            max-width: 1000px;
+            margin: 0px auto;
+            height: 100%;
+            display:-webkit-box;
+            border: 1px dashed #00ee00;
+        }
+        .content_left{
+            -webkit-box-flex:1;
+            margin: 10px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            border: 1px dashed #00ee00;
+        }
+
+        .content_top{
+            -webkit-box-flex: 1;
+            display: -webkit-box;
+            border: 1px dashed #00ee00;
+        }
+        .content_top_left{
+            -webkit-box-flex: 1;
+            height: 340px;
+            border: 1px dashed #00ee00;
+        }
+        .content_top_right{
+            -webkit-box-flex: 1;
+            height: 340px;
+            border: 1px dashed #00ee00;
+        }
+        .content_button{
+            -webkit-box-flex: 1;
+            display: -webkit-box;
+            border: 1px dashed #00ee00;
+        }
+        .content_button_left{
+            -webkit-box-flex: 1;
+            height: 340px;
+            border: 1px dashed #00ee00;
+        }
+        .content_button_right{
+            -webkit-box-flex: 1;
+            height: 340px;
+            border: 1px dashed #00ee00;
+        }
+        .content_right{
+            width: 200px;
+            margin: 10px;
+            -webkit-box-orient: vertical;
+            padding: 10px;
+            border: 1px dashed #00ee00;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main_box">
+    <div class="content_left">
+        <div class="content_top">
+            <div class="content_top_left">盒子1</div>
+            <div class="content_top_right">盒子2</div>
+        </div>
+        <div class="content_button">
+            <div class="content_button_left">盒子3</div>
+            <div class="content_button_right">盒子4</div>
+        </div>
+    </div>
+    <div class="content_right">盒子5</div>
+</div>
+</body>
+</html>

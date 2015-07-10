@@ -1,0 +1,77 @@
+.main_box{
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 100%;
+    display:-webkit-box;
+    border: 1px dashed #00ee00;
+}
+.content_left{
+    -webkit-box-flex:1;
+    margin: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    border: 1px dashed #00ee00;
+}
+
+.content_top{
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    border: 1px dashed #00ee00;
+}
+.content_top_left{
+    -webkit-box-flex: 1;
+    height: 340px;
+    border: 1px dashed #00ee00;
+}
+.content_top_right{
+    -webkit-box-flex: 1;
+    height: 340px;
+    border: 1px dashed #00ee00;
+}
+.content_button{
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    border: 1px dashed #00ee00;
+}
+.content_button_left{
+    -webkit-box-flex: 1;
+    height: 340px;
+    border: 1px dashed #00ee00;
+}
+.content_button_right{
+    -webkit-box-flex: 1;
+    height: 340px;
+    border: 1px dashed #00ee00;
+}
+.content_right{
+    width: 200px;
+    margin: 10px;
+    -webkit-box-orient: vertical;
+    padding: 10px;
+    border: 1px dashed #00ee00;
+}
+
+/*start-日历图样式*/
+.day {
+    fill: #fff;
+    stroke: #ccc;
+}
+
+.month {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.RdYlGn .q0-11{fill:rgb(165,0,38)}
+.RdYlGn .q1-11{fill:rgb(215,48,39)}
+.RdYlGn .q2-11{fill:rgb(244,109,67)}
+.RdYlGn .q3-11{fill:rgb(253,174,97)}
+.RdYlGn .q4-11{fill:rgb(254,224,139)}
+.RdYlGn .q5-11{fill:rgb(255,255,191)}
+.RdYlGn .q6-11{fill:rgb(217,239,139)}
+.RdYlGn .q7-11{fill:rgb(166,217,106)}
+.RdYlGn .q8-11{fill:rgb(102,189,99)}
+.RdYlGn .q9-11{fill:rgb(26,152,80)}
+.RdYlGn .q10-11{fill:rgb(0,104,55)}
+/*end-日历图样式*/

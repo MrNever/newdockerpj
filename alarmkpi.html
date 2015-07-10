@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="utf-8"/>
+    <title></title>
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <style>
+        #kpi{
+            margin-top: 10px;
+        }
+        #kpi div{
+            float: left;
+            margin: 5px;;
+            border:1px;
+            background-color: #f6f5ec;
+            padding: 3px;
+            font-family: '微软雅黑';
+        }
+        .checked{
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(89, 216, 206)), color-stop(0.42, rgb(89, 216, 206)), to(rgb(89, 216, 206))) 50% 50% / 100% no-repeat;
+            background-image: -ms-linear-gradient(rgb(15, 38, 72) 0%, rgb(22, 48, 89) 42%, rgb(32, 61, 105) 100%);
+        }
+        #kpi div:hover
+        {
+            cursor:pointer;
+            background-color:#70a19f;
+        }
+        #pic{
+            position: absolute;
+            top:50px;
+            left:15px;
+            width:600px;
+            height: 500px;
+            border:2px dashed #4bacd3;
+        }
+        #content{
+            position: absolute;
+            left: 630px;
+            top:50px;;
+            border: 1px solid #000000;
+        }
+        #content div{
+            font-family: '微软雅黑';
+        }
+    </style>
+    <script>
+        $("#kpi").find("div").live("click",function(){
+           $("#kpi>div").removeClass("checked");
+           $(this).addClass("checked");
+       })
+    </script>
+</head>
+<body>
+
+     <div style="float: left;margin-top: 5px;padding: 3px;font-family: '微软雅黑'">显示KPI维度切换：</div>
+  <div id="kpi">
+     <div>评价等级</div>
+     <div>峰值报警率</div>
+     <div>平均报警率</div>
+     <div>扰动率</div>
+  </div>
+   <div id="pic" ></div>
+   <div id="content">
+       <div>日期选择：<div>数据库的就是</div></div>
+       <div>装置、单元、岗位维度切换：</div>
+   </div>
+</body>
+</html>
